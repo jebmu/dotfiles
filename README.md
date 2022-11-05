@@ -1,13 +1,8 @@
 # Dotfiles for my "Rice"
 
-<div>
-<br/>
-</div>
-
 **Check out [Nimdow](https://github.com/avahe-kellenberger/nimdow)**
 
 <div>
-<br/>
 <br/>
 </div>
 
