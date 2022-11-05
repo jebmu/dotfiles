@@ -2,9 +2,7 @@
 
 
 
-
-
-## Installation:
+**<u>Installation:</u>**
 
 
 
@@ -29,5 +27,3 @@ chmod +x symlinks.sh
 ```shell
 ./symlinks.sh
 ```
-
-
