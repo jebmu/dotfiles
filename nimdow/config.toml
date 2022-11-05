@@ -32,7 +32,7 @@ modifiers = [ "super" ]
 [[startProcess]]
 command = "keepassxc"
 keys = [ "k" ]
-modifiers = [ "super", "shift" ]
+modifiers = [ "super", "shift", "control" ]
 
 # Example: Start process when region is clicked, see github wiki for what constitutes a region
 # [[startProcess]]
@@ -94,7 +94,7 @@ exec = [
 
   [controls.moveWindowPrevious]
   keys = [ "k" ]
-  modifiers = [ "super" ]
+  modifiers = [ "super", "shift" ]
 
   [controls.moveWindowNext]
   keys = [ "j" ]
