@@ -1,8 +1,6 @@
 # Dotfiles for my "Rice"
 
-
-
-
+****
 
 **Check out [Nimdow](https://github.com/avahe-kellenberger/nimdow)**
 
