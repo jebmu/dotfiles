@@ -4,14 +4,12 @@
 
 <div>
 <br/>
+<br/>
 </div>
 
 **<u>Installation:</u>**
 
-<div>
-<br/>
 
-</div>
 
 **WARNING: This will delete your current config files!**
 
