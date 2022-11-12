@@ -42,10 +42,11 @@ exec = [
   "xsetroot -cursor_name left_ptr",
   "picom",
   "nitrogen --restore",
-  "brave",
+  "librewolf",
   "discord",
   "sxhkd",
   "syncthing --no-browser",
+  "~/.config/nimdow/nimdowstatus",
 ]
 
 [settings]
@@ -66,7 +67,7 @@ exec = [
     "NotoColorEmoji:size=10:antialias=true"
   ]
   # Layout settings
-  gapSize = 0
+  gapSize = 10
   outerGap = 0
   resizeStep = 10
   # Scratchpad settings
