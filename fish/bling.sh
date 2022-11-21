@@ -1,3 +1,4 @@
+#!/bin/bash
 Vrandom=$((RANDOM % 4))
 
 
