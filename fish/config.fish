@@ -38,10 +38,10 @@ alias sh="shutdown now"
 
 set -gx EDITOR micro
 set -Ux EDITOR micro
-alias e="vim"
-alias ef="vim ~/dotfiles/fish/config.fish"
-alias ek="vim ~/dotfiles/kitty/kitty.conf" 
-alias en="vim ~/dotfiles/nimdow/config.toml"
+alias e="nvim"
+alias ef="nvim ~/dotfiles/fish/config.fish"
+alias ek="nvim ~/dotfiles/kitty/kitty.conf" 
+alias en="nvim ~/dotfiles/nimdow/config.toml"
 
 
 # Starship
