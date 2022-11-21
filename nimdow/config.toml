@@ -18,7 +18,7 @@ keys = [ "w" ]
 modifiers = [ "super" ]
 
 [[startProcess]]
-command = "rofi -show drun"
+command = "dmenu_run"
 keys = [ "p" ]
 modifiers = [ "super" ]
 
@@ -40,7 +40,7 @@ modifiers = [ "super", "shift", "control" ]
 [autostart]
 exec = [
   "xsetroot -cursor_name left_ptr",
-  "picom",
+#  "picom",
   "nitrogen --restore",
   "librewolf",
   "discord",
