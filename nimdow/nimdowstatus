@@ -1,6 +1,0 @@
-#!/bin/sh
-
-while true
-do xsetroot -name "$(free -h | awk '/Mem:/ {print $3 "/" $2}' | tr -d "i")"
-sleep 1
-done

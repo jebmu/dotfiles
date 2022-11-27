@@ -24,8 +24,6 @@
 
 !/fish
 !config.fish
-!bling.sh
-!bunnyfetch
 
 
 #micro
@@ -58,7 +56,6 @@
 
 !/nimdow
 !config.toml
-!nimdowstatus
 
 #rofi
 
@@ -70,3 +67,10 @@
 
 !/sxhkd
 !sxhkdrc
+
+
+#scripts
+!/scripts
+!terminal-bling
+!bunnyfetch
+!statusbar

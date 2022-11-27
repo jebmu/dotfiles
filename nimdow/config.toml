@@ -46,7 +46,7 @@ exec = [
   "discord",
   "sxhkd",
   "syncthing --no-browser",
-  "~/.config/nimdow/nimdowstatus",
+  "~/dotfiles/scripts/statusbar",
 ]
 
 [settings]

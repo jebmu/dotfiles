@@ -1,0 +1,22 @@
+#!/bin/sh
+Vrandom=$(seq 3 | shuf -n 1)
+
+
+case $Vrandom in
+
+	1)
+	./dotfiles/scripts/bunnyfetch
+	;;
+
+
+	2)
+	fm6000 -dog -color "blue" --shell=fish -nd
+	;;
+
+
+	3)
+	aura -n  'user shell' -c 'c4 c6'
+	;;
+
+
+esac

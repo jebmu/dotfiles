@@ -20,8 +20,12 @@ echo
         		ln -s /home/"$USER"/dotfiles/sxhkd /home/"$USER"/.config/;
         		rm -rf /home/"$USER"/.config/starship.toml;
         		ln -s /home/"$USER"/dotfiles/starship.toml /home/"$USER"/.config/;
-        		chmod +x /home/"$USER"/dotfiles/fish/bling.sh;
-        		chmod +x /home/"$USER"/dotfiles/fish/bunnyfetch;;		
+        		chmod +x /home/"$USER"/dotfiles/scripts/terminal-bling;
+        		chmod +x /home/"$USER"/dotfiles/scripts/bunnyfetch;
+			chmod +x /home/"$USER"/dotfiles/scripts/statusbar;
+			rm -rf /home/"$USER"/.scripts/;
+			ln -s /home/"$USER"/dotfiles/scripts /home/"$USER"/.scripts/;;
+        	
      	[Nn]* ) exit;;
         * ) echo "Please answer with y or n."; exit;;
     esac

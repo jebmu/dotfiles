@@ -65,7 +65,7 @@ alias ls="exa -a --color=always --group-directories-first"				# horizontal witho
 # Bling
 
 #./.config/fish/bunnyfetch
-./.config/fish/bling.sh
+./dotfiles/scripts/terminal-bling
 
 
 # confirm before overwriting something
