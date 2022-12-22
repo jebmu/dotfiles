@@ -40,13 +40,13 @@ modifiers = [ "super", "shift", "control" ]
 [autostart]
 exec = [
   "xsetroot -cursor_name left_ptr",
-#  "picom",
+  "picom",
   "nitrogen --restore",
   "librewolf",
   "discord",
-  "sxhkd",
+#  "sxhkd",
   "syncthing --no-browser",
-  "~/dotfiles/scripts/statusbar",
+#  "~/dotfiles/scripts/statusbar",
 ]
 
 [settings]

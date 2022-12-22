@@ -1,8 +1,22 @@
-#! /bin/sh
+#!/bin/sh
+
+
+#while true
+
+#do xsetroot -name "[RAM: $(free -h | awk '/Mem:/ {print $3 "/" $2}' | tr -d "i")] [Battery: $(cat /sys/class/power_supply/BAT0/capacity)%]"
+
+#sleep 1
+
+#done
+
+
+RAM="$(free -h | awk '/Mem:/ {print $3 "/" $2}' | tr -d "i")"
+#BAT="$(cat /sys/class/power_supply/BAT0/capacity)"
+
 
 while true
 
-do xsetroot -name "[RAM: $(free -h | awk '/Mem:/ {print $3 "/" $2}' | tr -d "i")] [Battery: $(cat /sys/class/power_supply/BAT0/capacity)%]"
+do xsetroot -name "[RAM: $RAM] [Battery: $BAT%]"
 
 sleep 1
 

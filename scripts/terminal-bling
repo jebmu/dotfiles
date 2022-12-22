@@ -1,8 +1,8 @@
 #!/bin/sh
-Vrandom=$(seq 3 | shuf -n 1)
+random=$(seq 3 | shuf -n 1)
 
 
-case $Vrandom in
+case $random in
 
 	1)
 	./dotfiles/scripts/bunnyfetch
