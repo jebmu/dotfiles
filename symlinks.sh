@@ -23,8 +23,10 @@ echo
         		chmod +x /home/"$USER"/dotfiles/scripts/terminal-bling;
         		chmod +x /home/"$USER"/dotfiles/scripts/bunnyfetch;
 			chmod +x /home/"$USER"/dotfiles/scripts/statusbar;
-			rm -rf /home/"$USER"/.scripts/;
-			ln -s /home/"$USER"/dotfiles/scripts /home/"$USER"/.scripts/;;
+			rm -rf /home/"$USER"/scripts/;
+			ln -s /home/"$USER"/dotfiles/scripts /home/"$USER"/;
+			rm -rf /home/"$USER"/.config/dunst;
+			ln -s /home/"$USER"/dotfiles/dunst /home/"$USER"/.config/;;
         	
      	[Nn]* ) exit;;
         * ) echo "Please answer with y or n."; exit;;
