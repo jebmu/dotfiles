@@ -65,7 +65,7 @@ alias ls="exa -a --color=always --group-directories-first"				# horizontal witho
 # Bling
 
 #./.config/fish/bunnyfetch
-./dotfiles/scripts/terminal-bling
+#./dotfiles/scripts/terminal-bling
 
 
 # confirm before overwriting something
@@ -79,7 +79,8 @@ alias free='free -m'                      								# show sizes in MB
 alias c="clear"
 
 
-abbr s "sudo"
+abbr s "doas"
+alias sudo="doas"
 abbr gc "git clone"
 
 
