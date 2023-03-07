@@ -245,7 +245,7 @@ exec = [
 
 
 [[appRule]]
-class = "discord"
+class = "armcord"
 instance = ""
 title = ""
 monitor = 2
