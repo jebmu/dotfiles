@@ -36,8 +36,8 @@ alias sh="shutdown now"
 
 # Text Editor
 
-set -gx EDITOR micro
-set -Ux EDITOR micro
+# set -gx EDITOR micro
+# set -Ux EDITOR micro
 alias e="nvim"
 alias ef="nvim ~/dotfiles/fish/config.fish"
 alias ek="nvim ~/dotfiles/kitty/kitty.conf" 
@@ -74,13 +74,13 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 
-alias df='df -h'                          								# human-readable sizes
-alias free='free -m'                      								# show sizes in MB
+# alias df='df -h'                          								# human-readable sizes
+# alias free='free -m'                      								# show sizes in MB
 alias c="clear"
 
 
-abbr s "doas"
-alias sudo="doas"
+abbr s "sudo"
+# alias sudo="doas"
 abbr gc "git clone"
 
 
