@@ -25,6 +25,8 @@ echo
 			chmod +x /home/"$USER"/dotfiles/scripts/statusbar;
 			rm -rf /home/"$USER"/scripts/;
 			ln -s /home/"$USER"/dotfiles/scripts /home/"$USER"/;
+			rm -rf /home/"$USER"/.config/hypr;
+			ln -s /home/"$USER"/dotfiles/hypr /home/"$USER"/.config/;
 			rm -rf /home/"$USER"/.config/dunst;
 			ln -s /home/"$USER"/dotfiles/dunst /home/"$USER"/.config/;;
         	

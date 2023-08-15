@@ -18,7 +18,7 @@ keys = [ "w" ]
 modifiers = [ "super" ]
 
 [[startProcess]]
-command = "dmenu_run"
+command = "rofi -show drun"
 keys = [ "p" ]
 modifiers = [ "super" ]
 

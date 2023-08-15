@@ -79,3 +79,9 @@
 #dunst
 !/dunst
 !dunstrc
+
+
+#hypr
+!/hypr
+!hyprland.conf
+!hyprpaper.conf
