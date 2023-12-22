@@ -44,6 +44,11 @@ alias ek="micro ~/dotfiles/kitty/kitty.conf"
 alias en="micro ~/dotfiles/nimdow/config.toml"
 alias eh="micro ~/dotfiles/hypr/hyprland.conf"
 
+
+# flac
+
+alias flac="flac --delete-input-file -w --verify --best *.wav"
+
 # Starship
 
 starship init fish | source
